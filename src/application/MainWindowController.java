@@ -101,7 +101,7 @@ public class MainWindowController {
 	void handleClickBtn5(ActionEvent event) {
 		Parent root;
 		try {
-			root = FXMLLoader.load(getClass().getResource("SampleFxml.fxml"));
+			root = FXMLLoader.load(getClass().getResource("GraduateStudents.fxml"));
 			Scene secondScene = new Scene(root, 550, 300);
 			Stage newWindow = new Stage();
 			newWindow.setTitle("Simple Cash System - Admin");

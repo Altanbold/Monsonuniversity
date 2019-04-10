@@ -11,7 +11,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("MainWindowFxml.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("GraduateStudents.fxml"));
 
 			stage.setTitle("Monson University");
 			stage.setScene(new Scene(root, 600, 400));
